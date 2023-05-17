@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ultrasonic_sensor_measuring_distance_Atmega32/ultrasonic_sensor.h&apos; to &apos;ultrasonic.h&apos;" description="Rename resource &apos;ultrasonic_sensor.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ultrasonic_sensor.h" name="ultrasonic.h" stamp="1684172892275" updateReferences="true"/>
+</session>

@@ -1,0 +1,45 @@
+/***********************************************************************************************************************
+ * Description: Measure the distance using ultrasonic sensor
+ *              HC-SR04
+ * Author: Sarah
+ *********************************************************************************************************************/
+
+#include"ultrasonic.h"
+#include"lcd.h"
+#include<avr/io.h>
+
+uint16 High_time;
+
+int main(void)
+{
+	LCD_init();
+
+	Ultrasonic_init();
+
+	High_time = Ultrasonic_readDistance();
+
+
+	while(1){
+
+
+
+		LCD_moveCursor(1,12);
+		if(temp >= 100)
+		{
+			LCD_intgerToString(temp);
+		}
+		else
+		{
+			LCD_intgerToString(temp);
+			/* In case the digital value is two or one digits print space in the next digit place */
+			LCD_displayString(' ');
+		}
+		if ( High_time > 100)
+		{
+
+		}
+
+
+	}
+
+}
